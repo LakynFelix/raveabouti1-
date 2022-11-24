@@ -672,6 +672,7 @@ progress {
   margin-top: calc(-1 * var(--bs-gutter-y));
   margin-right: calc(-0.5 * var(--bs-gutter-x));
   margin-left: calc(-0.5 * var(--bs-gutter-x));
+  justify-content: center;
 }
 .row > * {
   flex-shrink: 0;
@@ -11404,12 +11405,14 @@ img {vertical-align: middle;}
 /* Title blogs */
 h1.blogs {
   padding: 11px;
-  background-color: #9b59b6;
-  box-shadow: 10px 8px 5px #000;
+
   width: 230px;
  color: #fff;
- font-weight: 700;
+ font-weight: 800;
  text-transform: uppercase;
+    background-color: #8d44ad9b;
+    border-color: #8d44ad9b;
+    box-shadow: 10px 5px 5px #000;
  
 }
 hr.my-4 {
@@ -11420,4 +11423,7 @@ hr.my-4 {
 img.prof {
 
  
+}
+hr:not([size]) {
+  height: 0px;
 }
