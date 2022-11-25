@@ -11065,7 +11065,7 @@ blockquote {
 }
 #mainNav .navbar-toggler {
   font-size: 1rem;
-  font-weight: 600;
+  font-weight: 00;
   padding: 0.75rem;
   text-transform: uppercase;
 }
@@ -11078,7 +11078,7 @@ blockquote {
 }
 #mainNav .navbar-nav > li.nav-item > a.nav-link {
   font-size: 1rem;
-  font-weight: 600;
+  font-weight: 900;
   letter-spacing: 0.0625em;
   text-transform: uppercase;
   color: #9b59b6;
@@ -11422,9 +11422,25 @@ hr.my-4 {
 }
 
 img.prof {
-width: 50%;
+
+box-shadow:  1px 5px 20px 15px #8d44ad9b;
+float: right;
+/* }
+
+.zoom { */
  
+ 
+  transition: transform .5s;
+
+  margin: 0 auto;
 }
+
+.prof:hover {
+  -ms-transform: scale(1.5); /* IE 9 */
+  -webkit-transform: scale(1.5); /* Safari 3-8 */
+  transform: scale(1.5); 
+}
+
 hr:not([size]) {
   height: 3px;
   color: #8d44ad ;
@@ -11444,14 +11460,19 @@ hr:not([size]) {
   font-family: "Open Sans", -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, "Helvetica Neue", Arial, sans-serif, "Apple Color Emoji", "Segoe UI Emoji", "Segoe UI Symbol", "Noto Color Emoji";
 
 }
+
 .blogs1 {
-  padding: 11px;
+  padding: 6px;
 
   width: 600px;
  color: #fff;
- font-weight: 700;
+ font-weight: 500;
  text-transform: uppercase;
     background-color: #8d44ad9b;
     border-color: #8d44ad9b;
     box-shadow: 10px 8px 5px #000;
+    
+}
+a.btn.btn-primary.text-uppercase {
+  padding-right: 13px;
 }

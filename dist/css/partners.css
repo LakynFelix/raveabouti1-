@@ -11449,3 +11449,8 @@ body {
         margin: 20px 0px;
     }
 }
+
+.img-fluid {
+  width: 20%;
+  box-shadow:  1px 5px 20px 15px #8d44ad9b;
+}
